@@ -1,13 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <meta charset="UTF-8" />
-  <title></title>
   <style>
     body {
       margin: 0;
       padding: 0;
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
       color: #333;
       background-color: #fff;
     }
@@ -74,59 +71,31 @@
   <!--Subject: Login Verification Required for Your [App Name] Account-->
   <div class="container">
     <div class="header">
-      <a>Prove Your [App Name] Identity</a>
+      <a>验证您的喵站帐号</a>
     </div>
     <br />
-    <strong>Dear [Recipient Name],</strong>
     <p>
-      We have received a login request for your [App Name] account. For
-      security purposes, please verify your identity by providing the
-      following One-Time Password (OTP).
+      我们从您的喵站帐号接收到了一个[request type]请求。为了安全, 请输入一下一次性验证码来验证您的身份
       <br />
-      <b>Your One-Time Password (OTP) verification code is:</b>
+      <b>您的一次性验证码是:</b>
     </p>
     <h2 class="otp">{Insert OTP}</h2>
     <p style="font-size: 0.9em">
-      <strong>One-Time Password (OTP) is valid for 3 minutes.</strong>
+      <strong>一次性验证码的有效期为5分钟</strong>
       <br />
       <br />
-      If you did not initiate this login request, please disregard this
-      message. Please ensure the confidentiality of your OTP and do not share
-      it with anyone.<br />
-      <strong>Do not forward or give this code to anyone.</strong>
+      如果您没有[request type]，请忽略这封电子邮件。请确保你的一次性验证码不会泄漏给任何人<br />
+      <strong>不要把这封电子邮件转发给任何人</strong>
       <br />
       <br />
-      <strong>Thank you for using [App Name].</strong>
+      <strong>感谢您选择喵站</strong>
       <br />
-      <br />
-      Best regards,
-      <br />
-      <strong>[Company Name]</strong>
     </p>
 
     <hr style="border: none; border-top: 0.5px solid #131111" />
     <div class="footer">
-      <p>This email can't receive replies.</p>
-      <p>
-        For more information about [App Name] and your account, visit
-        <strong>[Name]</strong>
-      </p>
-    </div>
-  </div>
-  <div style="text-align: center">
-    <div class="email-info">
-      <span>
-        This email was sent to
-        <a href="mailto:{Email Adress}">{Email Adress}</a>
-      </span>
-    </div>
-    <div class="email-info">
-      <a href="/">[Company Name]</a> | [Address]
-      | [Address] - [Zip Code/Pin Code], [Country Name]
-    </div>
-    <div class="email-info">
-      &copy; 2023 [Company Name]. All rights
-      reserved.
+      <p>本邮件为自动发送，请不要尝试回复</p>
+      <!-- <p>如果想知道更多喵站和您的帐号的信息, visit<strong>[Name]</strong></p> -->
     </div>
   </div>
 </body>
